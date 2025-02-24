@@ -1,7 +1,7 @@
 {
   "name": "my-web-project",
   "version": "1.0.0",
-  "description": "Проект с HTML, Sass (с Tailwind CSS) и базовым HTTP-сервером на Node.js.",
+  "description": "практичка по работе с HTML, Sass.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

@@ -1,0 +1,49 @@
+
+body {
+    background-color: #f7fafc;
+    color: #1a202c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 10px;
+  }
+
+  .column {
+    width: 45%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  // Стили для кнопки
+  .my-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #1a202c;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+    &:hover {
+      background-color: blanchedalmond;
+      color: white;
+    }
+  }
